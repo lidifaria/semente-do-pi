@@ -1,0 +1,43 @@
+.titleProduct  {
+  /* Title */
+  position: absolute;
+  left: 65%;
+  right: 10.07%;
+  top: 15.33%;
+  bottom: 79.78%;
+
+  /* Heading 03 */
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  letter-spacing: -1.5px;
+
+  color: #000000;
+}
+
+
+.sectionDescription {
+  position: absolute;
+  width: 357px;
+  height: 104px;
+  left: 740px;
+  top: 237px;
+
+  /* Paragraph 02 */
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  letter-spacing: -0.3px;
+
+  color: #000000;
+}
