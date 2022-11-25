@@ -1,43 +1,55 @@
-.titleProduct  {
-  /* Title */
-  position: absolute;
-  left: 65%;
-  right: 10.07%;
-  top: 15.33%;
-  bottom: 79.78%;
-
-  /* Heading 03 */
-
-  font-family: "Public Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height, or 122% */
-
-  letter-spacing: -1.5px;
-
-  color: #000000;
+* {
+  box-sizing: border-box;
 }
 
-
-.sectionDescription {
-  position: absolute;
-  width: 357px;
-  height: 104px;
-  left: 740px;
-  top: 237px;
-
-  /* Paragraph 02 */
-
-  font-family: "Public Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  /* or 144% */
-
-  letter-spacing: -0.3px;
-
-  color: #000000;
+/* 25/11/22: Objetivos deste co-learning:
+zerar o css
+*/
+body {
+  margin: 0;
+  padding: 0;
 }
+
+/*
+Header.... fundo amarelo de fora a fora com 60px de altura. O conteúdo dele guarda 100px de distância das laterais
+*/
+header {
+  background-color: #333;
+  height: 60px;
+  width: 100%;
+}
+
+header div {
+  margin: 0 100px;	
+  height: 100%;
+ /* background-color: green;*/
+  display: flex;
+  gap: 5px;
+}
+
+header div a {
+ /* background-color: aqua;*/
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #FFF
+}
+
+header div a:hover{
+  background-color:aqua;
+  color: #333
+}
+
+header div a:last-child{
+  margin-left: auto;
+}
+
+/*
+main... fundo rosa, tambem de fora a fora
+mas o conteúdo dele ficará centralizado à uma distância de 100px das laterais e 50px do topo e do fundo
+*/
+
+/*
+footer.... fundo amarelo de fora a fora com 60px de altura
+*/
